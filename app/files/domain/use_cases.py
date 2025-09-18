@@ -1,5 +1,5 @@
 import io
-from pypdf import PdfMerger
+from pypdf import PdfWriter
 
 class FilesUseCases:
     def __init__(self, token_repo, file_repo, storage_repo):
